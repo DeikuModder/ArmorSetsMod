@@ -1,6 +1,7 @@
 package net.gabriel.armorsetstweaker;
 
 import com.mojang.logging.LogUtils;
+import net.gabriel.armorsetstweaker.registry.ModMenuTypes;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -31,6 +32,9 @@ public class ArmorSets
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModMenuTypes.register(modEventBus);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
