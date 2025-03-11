@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "armorsetstweaker:anopalo"
+    },
+    "X": {
+      "item": "armorsetstweaker:anosteel"
+    }
+  },
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "result": {
+    "item": "armorsetstweaker:anosword"
+  }
+}

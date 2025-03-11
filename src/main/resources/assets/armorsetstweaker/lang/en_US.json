@@ -1,0 +1,12 @@
+{
+  "gui.armorsetstweaker.custom_tab": "Custom Tab",
+  "gui.armorsetstweaker.open_tab": "Open Tab",
+  "gui.armorsetstweaker.close_tab": "Main tab",
+
+  "item.armorsetstweaker.anopalo": "Anopalo",
+  "item.armorsetstweaker.anosteel": "Anosteel",
+  "item.armorsetstweaker.netherite_detector": "Netherite Detector",
+  "item.armorsetstweaker.anosword": "Anosword",
+
+  "creativetab.ano_tab": "Ano Tab"
+}
